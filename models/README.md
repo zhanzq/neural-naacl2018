@@ -30,7 +30,7 @@ official documentation](https://marian-nmt.github.io/docs/)).
 
 1. Install requirements:
     - Python, Perl, Makefile
-    - Python Enchant (`sudo apt-get install python-enchant` on Ubuntu)
+    - Python Enchant (`pip install pyenchant` on Ubuntu)
 
 1. Put the official test sets from CoNLL 2013 and 2014 shared tasks into
    this directory and name them `test2013.m2` and `test2014.m2`.
