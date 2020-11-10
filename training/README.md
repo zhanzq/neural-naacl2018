@@ -36,6 +36,12 @@ available.
     - Python, Perl, Makefile
     - GNU parallel (`sudo apt-get install parallel` on Ubuntu)
     - Python Enchant (`sudo apt-get install python-enchant` on Ubuntu)
+    - pigz (`sudo apt-get install pigz` on Ubuntu)
+    - Algorithm::Diff 
+      + `sudo apt-get install liblocal-lib-perl`
+      + `sudo apt-get install cpanminus`
+      + `cpan -i Algorithm::Diff`
+    - push($self->{"tags"}, \%hash); ==> push(@{$self->{"tags"}}, \%hash);
 
 1. Put the NUCLE corpus and official test sets from CoNLL 2013 and 2014 shared
    tasks into `data/conll` directory and name them `nucle.m2`, `test2013.m2`
